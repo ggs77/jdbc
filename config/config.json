@@ -1,0 +1,23 @@
+{
+    "database": {
+        "driver_path": "./drivers/as400/jt400-20.0.7.jar",
+        "driver_class": "com.ibm.as400.access.AS400JDBCDriver",
+        "url": "jdbc:as400://server_name;libraries=db_name;",
+        "user": "User",
+        "password": "Password"
+    },
+    "paths": {
+        "input_dir": "data\\input",
+        "output_dir": "data\\output",
+        "queries_dir": "queries"
+    },
+    "files": {
+        "csv_input": "entrada.csv",
+        "csv_output": "salida.csv",
+        "sql_query": "query.sql"
+    },
+    "parameters": {
+        "block_size": 10,
+        "pause_seconds": 1
+    }
+}
